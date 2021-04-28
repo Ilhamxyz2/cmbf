@@ -165,7 +165,7 @@ def asup():
     print '\033[1;97m [\033[1;92m*\033[1;97m] Your Key Has Not Been Confirmed'
     print '\033[1;97m [\033[1;94m*\033[1;97m] Please Contact Admin for Key Confirmation'
     raw_input('\033[1;97m [\033[1;94m>\033[1;97m] Press Enter to Chat Admin ')
-    os.system('am start https://wa.me/6285603036683?text=Hi,%20YayanXD%20please%20confirm%20my%20key%20Key%20:%20' + id + ' >/dev/null')
+    os.system('am start https://wa.me/6285722391529?text=Hi,%20YayanXD%20please%20confirm%20my%20key%20Key%20:%20' + id + ' >/dev/null')
     time.sleep(1)
     exit()
 ### GAGAL ###
