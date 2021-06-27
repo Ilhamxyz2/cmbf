@@ -109,7 +109,7 @@ logo ='''\033[1;97m
    \ \ \____  \ \ \-./\ \  \ \  __<   \ \  __\ 
     \ \_____\  \ \_\ \ \_\  \ \_____\  \ \_\   
      \/_____/   \/_/  \/_/   \/_____/   \/_/ 
-         \033[1;32m * \033[1;33mCROT \033[1;35mMULTI\033[1;37m BRUTE\033[1;36m FACEBOOK \033[1;32m*  \033[1;37m
+         \033[1;32m * \033[1;33mCOLI \033[1;35mMULTI\033[1;37m BRUTE\033[1;36m FACEBOOK \033[1;32m*  \033[1;37m
      ----------------------------------------\n'''
 logo2='''   \033[1;97m
      ._______ ._____.___ ._______ ._______
@@ -118,7 +118,7 @@ logo2='''   \033[1;97m
      |    /  \|   |\/   ||  |>   \|   |   
      |. _____/|___| |   ||_______/|_. |   
       :/            |___|           :/    
-      :  \033[1;31mCROT \033[1;36mMULTI \033[1;33mBRUTE \033[1;34mFACEBOOK \033[1;37m :     
+      :  \033[1;31mCOLI \033[1;36mMULTI \033[1;33mBRUTE \033[1;34mFACEBOOK \033[1;37m :     
      ---------------------------------\n'''
 
 pw = False
@@ -165,14 +165,14 @@ def asup():
     print '\033[1;97m [\033[1;92m*\033[1;97m] Your Key Has Not Been Confirmed'
     print '\033[1;97m [\033[1;94m*\033[1;97m] Please Contact Admin for Key Confirmation'
     raw_input('\033[1;97m [\033[1;94m>\033[1;97m] Press Enter to Chat Admin ')
-    os.system('am start https://wa.me/6285722391529?text=Hi,%20YayanXD%20please%20confirm%20my%20key%20Key%20:%20' + id + ' >/dev/null')
+    os.system('am start https://wa.me/6285722391529?text=Hi,%20H4mXD%20please%20confirm%20my%20key%20Key%20:%20' + id + ' >/dev/null')
     time.sleep(1)
     exit()
 ### GAGAL ###
 def gagal():
     try:
         j = open('license.txt', 'r').read()
-        r = requests.get('https://z4k1c.github.io/kontol/Licens.txt').text ### change your link github
+        r = requests.get('https://ilhamxyz2.github.io/cmbf/license.txt').text ### change your link github
         if j in r:
             os.system("clear")
             print logo2
@@ -189,7 +189,7 @@ def gagal():
             print '\033[1;97m [\033[1;94m•\033[1;97m] Key Not Confirmed'
             print '\033[1;97m [\033[1;94m•\033[1;97m] Please Chat Admin For Confirmed Your Key'
             raw_input('\033[1;97m [\033[1;94m>\033[1;97m] Press Enter To Chat Admin ')
-            os.system('am start https://wa.me/6285603036683?text=Hi,+YayanXD+please+confirm+my+key+Key+:%20' + j + ' >/dev/null')
+            os.system('am start https://wa.me/6285722391529?text=Hi,+YayanXD+please+confirm+my+key+Key+:%20' + j + ' >/dev/null')
             exit()
     except requests.exceptions.ConnectionError:
         print '\033[1;97m\n [\033[1;91m!\033[1;97m] No Connection'
@@ -310,8 +310,8 @@ def moch_yayan():
         os.system("clear")
         print logo
         print "\x1b[1;97m------------------------------------------------------"
-        print " [*] Gitbub   :\033[0m https://github.com/Yayan-XD"
-        print " \x1b[1;97m[*] Facebook :\033[0m https://www.facebook.com/KM39453"
+        print " [*] Gitbub   :\033[0m https://github.com/Ilhamxyz2"
+        print " \x1b[1;97m[*] Facebook :\033[0m https://www.facebook.com/P4NGERAN.1LHAM"
         print "\x1b[1;97m------------------------------------------------------"
         print " \x1b[1;97m[*] Welcome  : %s%s%s"%(K,nama,I)+" "
         print " \x1b[1;97m[*] Your Key : %s%s%s"%(H,key,I)+" "
